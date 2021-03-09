@@ -22,7 +22,7 @@ class KeychainTests: XCTestCase {
 	// MARK: - XCTestCase
 
 	override func tearDown() {
-		SAMKeychain.deletePasswordForService(testService, account: testAccount)
+        SAMKeychain.deletePasswordForService(testService, account: testAccount)
 		super.tearDown()
 	}
 
